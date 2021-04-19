@@ -7,7 +7,7 @@ class TerraformAT014 < Formula
 
   keg_only :versioned_formula
 
-  depends_on "go@1.14" => :build
+  depends_on "go" => :build
 
   def install
     # v0.6.12 - source contains tests which fail if these environment variables are set locally.
